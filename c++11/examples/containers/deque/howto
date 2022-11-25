@@ -1,0 +1,14 @@
+template<
+    class T,
+    class Allocator = std::allocator<T>
+> class deque;
+
+T must meet the requirements of CopyAssignable and CopyConstructible.
+
+A deque is generally implemented as a collection of memory blocks. 
+
+
+
+    Random access - constant O(1)
+    Insertion or removal of elements at the end or beginning - constant O(1)
+    Insertion or removal of elements - linear O(n) 

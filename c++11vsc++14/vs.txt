@@ -1,0 +1,17 @@
+C++ 11:
+
+    Unified Initialization
+    Multithreading
+    Smart Pointers
+    Hash Tables
+    std::array container
+    Move semantics
+    Lambda functions included
+    auto and decltype added
+
+C++ 14:
+
+    Generalized Lambdas
+    Reader-Writer Locks
+    constexpr included
+    Return type deductions extended to all functions
