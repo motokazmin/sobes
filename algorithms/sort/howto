@@ -1,0 +1,12 @@
+Stable sort: A sorting algorithm is said to be stable if two objects with equal keys appear in the same order in sorted output as they appear in the input data set
+
+
+Selection, Bubble, Merge, Quick
+
+Selection: O(N*N), memory O(1), not stable - find next min element, swap with current
+Bubble:    O(N*N), memory O(1), stable     - swap the adjacent elements
+Merge:     O(N*ln(N)), memory O(N), stable - reqursively split until every part will contain only one element
+Quick:    not stable
+	Worth case   - O(N*N) - every time pick min/max element as pivot point
+	Best  case   - O(N*Ln(N)) every time pick median element by value
+	Average case - O(N*Ln(N)) 

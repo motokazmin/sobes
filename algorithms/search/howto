@@ -1,0 +1,4 @@
+Linear, Binary
+
+Linear - O(N)
+Binary - O(Ln(N)) - used for sorted data
