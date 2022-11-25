@@ -1,0 +1,8 @@
+template<
+
+    class T,
+    class Allocator = std::allocator<T>
+> class list;
+
+It is usually implemented as a doubly-linked list
+T must meet the requirements of CopyAssignable and CopyConstructible. 
